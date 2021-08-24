@@ -2874,3 +2874,867 @@ URL= http://127.0.0.1:8000
 #26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
 "} 
+[2021-08-24 20:37:22] local.ERROR: 2021-08-24 20:37:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:37:22] local.ERROR: 2021-08-24 20:37:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:37:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:37:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:37:22] local.ERROR: 2021-08-24 20:37:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:37:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:38:22] local.ERROR: 2021-08-24 20:38:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:38:22] local.ERROR: 2021-08-24 20:38:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:38:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:38:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:38:22] local.ERROR: 2021-08-24 20:38:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:38:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:39:22] local.ERROR: 2021-08-24 20:39:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:39:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:39:22] local.ERROR: 2021-08-24 20:39:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:39:22] local.ERROR: 2021-08-24 20:39:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:39:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:39:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:39:22] local.ERROR: 2021-08-24 20:39:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:39:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:40:22] local.ERROR: 2021-08-24 20:40:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:40:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:40:22] local.ERROR: 2021-08-24 20:40:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:40:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:41:22] local.ERROR: 2021-08-24 20:41:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:41:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:41:22] local.ERROR: 2021-08-24 20:41:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:41:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:41:22] local.ERROR: 2021-08-24 20:41:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:41:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:41:55] local.ERROR: 2021-08-24 20:41:55:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:41:55] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 34)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 G:\\WebDev\\github_action_test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:42:22] local.ERROR: 2021-08-24 20:42:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:42:22] local.ERROR: 2021-08-24 20:42:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:42:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:42:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:42:22] local.ERROR: 2021-08-24 20:42:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:42:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:43:22] local.ERROR: 2021-08-24 20:43:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:43:22] local.ERROR: 2021-08-24 20:43:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:43:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:43:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:43:22] local.ERROR: 2021-08-24 20:43:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:43:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:44:22] local.ERROR: 2021-08-24 20:44:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:44:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:44:22] local.ERROR: 2021-08-24 20:44:22:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:44:22] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 20:44:22] local.ERROR: 2021-08-24 20:44:22:
+```syntax error, unexpected '}'```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 36, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:44:22] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:36)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2021-08-24 20:45:14] local.ERROR: 2021-08-24 20:45:14:
+```syntax error, unexpected '1' (T_LNUMBER)```
+*File* `G:\WebDev\github_action_test\routes\api\v1\api.php`, *Line:* 34, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 20:45:14] local.ERROR: syntax error, unexpected '1' (T_LNUMBER) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '1' (T_LNUMBER) at G:\\WebDev\\github_action_test\outes\\api\\v1\\api.php:34)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('G:\\\\WebDev\\\\githu...')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('G:\\\\WebDev\\\\githu...')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(135): Illuminate\\Routing\\Router->group(Array, 'G:\\\\WebDev\\\\githu...')
+#3 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(72): Illuminate\\Routing\\RouteRegistrar->group('G:\\\\WebDev\\\\githu...')
+#4 G:\\WebDev\\github_action_test\\app\\Providers\\RouteServiceProvider.php(36): App\\Providers\\RouteServiceProvider->mapApiRoutes()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->map()
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(122): Illuminate\\Container\\Container->call(Array)
+#11 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#12 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#13 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#16 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#17 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(113): Illuminate\\Container\\Container->call(Object(Closure))
+#18 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#19 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#20 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 35)
+#21 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#22 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#23 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#24 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#25 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#26 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
