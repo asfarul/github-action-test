@@ -58,3 +58,1514 @@
 #SC003::Message: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  - Line: 70 - File: G:\WebDev\wemeet_web\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php
   
+[2021-08-24 18:59:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 18:59:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 18:59:20] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 18:59:20] local.ERROR: Uncaught ReflectionException: Class translator does not exist in G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Container\Container.php:873
+Stack trace:
+#0 G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Container\Container.php(873): ReflectionClass->__construct('translator')
+#1 G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Container\Container.php(754): Illuminate\Container\Container->build('translator')
+#2 G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(841): Illuminate\Container\Container->resolve('translator', Array, true)
+#3 G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Container\Container.php(692): Illuminate\Foundation\Application->resolve('translator', Array)
+#4 G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(826): Illuminate\Container\Container->make('translator', Array)
+#5 G:\WebDev\github_action_test\vendor\laravel\fr {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class translator does not exist in G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:873
+Stack trace:
+#0 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): ReflectionClass->__construct('translator')
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\Container->build('translator')
+#2 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->resolve('translator', Array, true)
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(692): Illuminate\\Foundation\\Application->resolve('translator', Array)
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(826): Illuminate\\Container\\Container->make('translator', Array)
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\fr at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:875)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 18:59:20] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 18:59:21] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:00:05] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:00:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:00:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:01:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:01:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:02:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:02:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:03:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:03:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:04:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:04:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:04:55] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:05:08] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 G:\\WebDev\\github_action_test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:05:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:05:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:06:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:06:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:07:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:07:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:08:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:08:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:09:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:09:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:10:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:10:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:11:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:11:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:11:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 G:\\WebDev\\github_action_test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:12:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:12:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:13:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:13:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:14:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:15:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:15:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:16:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:16:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:17:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:17:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:18:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:19:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:19:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:19:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:20:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:21:19] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:21:55] local.ERROR: array_merge(): Expected parameter 2 to be an array, int given {"exception":"[object] (ErrorException(code: 0): array_merge(): Expected parameter 2 to be an array, int given at G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php:130)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'array_merge(): ...', 'G:\\\\WebDev\\\\githu...', 130, Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(130): array_merge(Array, 1)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\EnlightnServiceProvider.php(38): Illuminate\\Support\\ServiceProvider->mergeConfigFrom('G:\\\\WebDev\\\\githu...', 'enlightn')
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(672): Enlightn\\Enlightn\\EnlightnServiceProvider->register()
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register(Object(Enlightn\\Enlightn\\EnlightnServiceProvider))
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(649): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 G:\\WebDev\\github_action_test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2021-08-24 19:22:19] local.ERROR: 2021-08-24 19:22:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:22:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:23:19] local.ERROR: 2021-08-24 19:23:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:23:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:24:19] local.ERROR: 2021-08-24 19:24:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:24:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:25:19] local.ERROR: 2021-08-24 19:25:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:25:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:26:19] local.ERROR: 2021-08-24 19:26:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:26:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:27:19] local.ERROR: 2021-08-24 19:27:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:27:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:28:20] local.ERROR: 2021-08-24 19:28:20:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:28:20] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:29:19] local.ERROR: 2021-08-24 19:29:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:29:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:30:19] local.ERROR: 2021-08-24 19:30:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:30:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:31:19] local.ERROR: 2021-08-24 19:31:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:31:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:32:20] local.ERROR: 2021-08-24 19:32:20:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:32:20] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:33:19] local.ERROR: 2021-08-24 19:33:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:33:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:34:19] local.ERROR: 2021-08-24 19:34:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:34:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:35:20] local.ERROR: 2021-08-24 19:35:20:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:35:20] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:36:19] local.ERROR: 2021-08-24 19:36:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:36:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:37:19] local.ERROR: 2021-08-24 19:37:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:37:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:38:19] local.ERROR: 2021-08-24 19:38:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:38:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:39:19] local.ERROR: 2021-08-24 19:39:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:39:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:40:19] local.ERROR: 2021-08-24 19:40:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:40:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:41:19] local.ERROR: 2021-08-24 19:41:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:41:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:42:19] local.ERROR: 2021-08-24 19:42:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:42:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:42:28] local.ERROR: 2021-08-24 19:42:28:
+```Invalid credentials. Please check your username and API token.```
+*File* `G:\WebDev\github_action_test\vendor\enlightn\enlightn\src\Reporting\Client.php`, *Line:* 95, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:42:28] local.ERROR: Invalid credentials. Please check your username and API token. {"exception":"[object] (Enlightn\\Enlightn\\Reporting\\UnauthorizedException(code: 0): Invalid credentials. Please check your username and API token. at G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\Reporting\\Client.php:95)
+[stacktrace]
+#0 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\Reporting\\Client.php(46): Enlightn\\Enlightn\\Reporting\\Client->request('POST', 'report', Array)
+#1 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\Reporting\\API.php(23): Enlightn\\Enlightn\\Reporting\\Client->post('report', Array)
+#2 G:\\WebDev\\github_action_test\\vendor\\enlightn\\enlightn\\src\\Console\\EnlightnCommand.php(121): Enlightn\\Enlightn\\Reporting\\API->sendReport(Array)
+#3 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Enlightn\\Enlightn\\Console\\EnlightnCommand->handle(Object(Enlightn\\Enlightn\\Reporting\\API))
+#4 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#6 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#7 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(651): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#8 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(136): Illuminate\\Container\\Container->call(Array)
+#9 G:\\WebDev\\github_action_test\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#10 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#11 G:\\WebDev\\github_action_test\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 G:\\WebDev\\github_action_test\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand(Object(Enlightn\\Enlightn\\Console\\EnlightnCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 G:\\WebDev\\github_action_test\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 G:\\WebDev\\github_action_test\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 G:\\WebDev\\github_action_test\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
+[2021-08-24 19:43:19] local.ERROR: 2021-08-24 19:43:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:43:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:44:19] local.ERROR: 2021-08-24 19:44:19:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:44:19] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:45:20] local.ERROR: 2021-08-24 19:45:20:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:45:20] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:46:20] local.ERROR: 2021-08-24 19:46:20:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:46:20] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-08-24 19:47:20] local.ERROR: 2021-08-24 19:47:20:
+```Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown```
+*File* `Command line code`, *Line:* 1, *Code:* 0
+URL= http://127.0.0.1:8000
+  
+[2021-08-24 19:47:20] local.ERROR: Uncaught ReflectionException: Class App\Policies\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\Policies\\Mo...')
+#1 [internal function]: {closure}('App\\Policies\\Mo...', 'App\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class App\\Policies\\ModelPolicy does not exist in Command line code:1
+Stack trace:
+#0 Command line code(1): ReflectionClass->__construct('App\\\\Policies\\\\Mo...')
+#1 [internal function]: {closure}('App\\\\Policies\\\\Mo...', 'App\\\\Model')
+#2 Command line code(1): array_map(Object(Closure), Array, Array)
+#3 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
