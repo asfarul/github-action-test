@@ -31,6 +31,6 @@ Route::group([
 ], function () {
     Route::get('/', [UsersController::class, 'details']); // device check
     Route::post('/devicecheck', [UsersController::class, 'deviceCheck']); // device check
-    Route::post('/update', [UsersController::class, 'update']) 1// device check
+    Route::post('/update', [UsersController::class, 'update']);// device check
     // Route::get('/details', [UserController::class, 'userDetails']); // user details
 });
