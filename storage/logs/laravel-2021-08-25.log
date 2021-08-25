@@ -122,3 +122,19 @@
 #SC003::Message: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  - Line: 70 - File: G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php
   
+[2021-08-25 17:22:55] local.ERROR: 2021-08-25 17:22:55:
+#SC003::Message: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - Line: 70 - File: G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php
+  
+[2021-08-25 17:22:55] local.ERROR: 2021-08-25 17:22:55:
+#SC003::Message: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - Line: 70 - File: G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php
+  
+[2021-08-25 17:23:55] local.ERROR: 2021-08-25 17:23:55:
+#SC003::Message: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - Line: 70 - File: G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php
+  
+[2021-08-25 17:23:55] local.ERROR: 2021-08-25 17:23:55:
+#SC003::Message: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ - Line: 70 - File: G:\WebDev\github_action_test\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php
+  
